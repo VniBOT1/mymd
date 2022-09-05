@@ -28,7 +28,7 @@ let handler = async(m, { conn }) => {
   return delete conn.p[id]
 }
 
-handler.help = ['6281257170601']
+handler.help = ['owner']
 handler.tags = ['info']
 handler.command = /^(owner|creator)$/i
 
